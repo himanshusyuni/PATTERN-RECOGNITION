@@ -14,14 +14,3 @@ Here is an example [confusion matrix](http://scikit-learn.org/stable/modules/gen
 
 ![Alt text](confusion.png)
 
-## Usage
-
-This is distributed as a Python package `ptdec` and can be installed with `python setup.py install` after installing `ptsdae` from https://github.com/vlukiyanov/pt-sdae. The PyTorch `nn.Module` class representing the DEC is `DEC` in `ptdec.dec`, while the `train` function from `ptdec.model` is used to train DEC.
-
-## Other implementations of DEC
-
-*   Original Caffe: <https://github.com/piiswrong/dec>
-*   PyTorch: <https://github.com/CharlesNord/DEC-pytorch> and <https://github.com/eelxpeng/dec-pytorch>
-*   Keras: <https://github.com/XifengGuo/DEC-keras> and <https://github.com/fferroni/DEC-Keras>
-*   MXNet: <https://github.com/apache/incubator-mxnet/blob/master/example/deep-embedded-clustering/dec.py>
-*   Chainer: <https://github.com/ymym3412/DeepEmbeddedClustering>
